@@ -1,6 +1,6 @@
 function exercice03(){
 var message = "bonjour à tous!";
-var longueur = message.length;
+var longueur = length(message);
 var i = longueur;
 var espace = "";
 var o = "";

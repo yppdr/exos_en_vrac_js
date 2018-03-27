@@ -1,6 +1,6 @@
 function exercice02(){
         var message = "bonjour a tous!";
-        var longueur = message.length;
+        var longueur = length(message);
         var i = longueur;
 
         //Déclare les variables a vide.
