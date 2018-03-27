@@ -1,10 +1,58 @@
 /*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
+0082FF
+FFFDDD
+248a2e
+
 */
 /* 
     Created on : 27 mars 2018, 13:56:29
     Author     : yannis
 */
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+*{
+    font-family: 'Dosis', sans-serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:  #FFFDDD;
+    padding-top: 10px;
+}
 
+.hidden{
+    visibility: hidden;
+}
+
+.exercice{
+    background-color: #0082FF;
+    -webkit-box-shadow: 3px 7px 13px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 7px 13px -5px rgba(0,0,0,0.75);
+    box-shadow: 3px 7px 13px -5px rgba(0,0,0,0.75);
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border:3px solid #000000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+.exercice h3{
+    text-align: center;
+}
+.exercice button{
+    border:2px solid #000000;
+    height: 40px;
+    width: auto;
+    min-width: 40px;
+    background-color: #db1342;
+    /**float: right;
+    padding: 10px;**/
+    margin-left: 80%;
+
+}
+.exercice button:hover{
+    background-color: #f8174b;
+}
