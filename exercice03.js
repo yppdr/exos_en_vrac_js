@@ -7,8 +7,8 @@ function exercice03(){
      var ligne = "";
      var maj = "";
      var iMaj = 0;
-     
-     
+
+
  // - Remplacez tous les « e » par des « E »
      for (var i = 0; i < longueur; i++)
      {
@@ -20,7 +20,7 @@ function exercice03(){
              ligne += '-';
              iMaj = i;
          }
- // - Changer la première lettre de chaque mot par une majuscule      
+ // - Changer la première lettre de chaque mot par une majuscule
          else if (i === parseInt(iMaj + 1) || i === 0) {
              maj = toUpperCase(message[i]);
              ligne += maj;
@@ -28,12 +28,12 @@ function exercice03(){
              ligne += message[i];
          }
      }
-
+     ///affiche en console
      console.log(ligne);
-     
+
         var div = document.getElementById("exo3");
-    var resultatDeLExo = ligne;
-    var texte = document.createTextNode(resultatDeLExo);
-    div.appendChild(texte);
+        var resultatDeLExo = ligne;
+        var texte = document.createTextNode(resultatDeLExo);
+        div.appendChild(texte);
 
 }

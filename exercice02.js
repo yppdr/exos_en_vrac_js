@@ -12,7 +12,7 @@ function exercice02(){
             //test les espace
             if(message[i] ===  " "){
                 space++;
-            
+
             }
             //test les o
             if(message[i] ===  "o"){
@@ -20,14 +20,14 @@ function exercice02(){
                 indexO += i + ".";
             }
         }
-        
-        var div = document.getElementById("exo2");
-var resultatDeLExo = indexO;
-var texte = document.createTextNode(resultatDeLExo);
-div.appendChild(texte);
 
+        //Affiche ca en html
+        var div = document.getElementById("exo2");
+        var resultatDeLExo = indexO;
+        var texte = document.createTextNode(resultatDeLExo);
+        div.appendChild(texte);
+        //afiche en console
             console.log("il y a : " + space + " espaces");
             console.log("il y a : " + o + " o");
             console.log(indexO);
 }
-

@@ -27,8 +27,8 @@ function exercice04(){
    }
    // affichage du nombre de mot total.
    console.log("il y a " + count + " mots dans la phrase : " + message)
-var div = document.getElementById("exo4");
-var resultatDeLExo = "il y a " + count + " mots dans la phrase : " + message;
-var texte = document.createTextNode(resultatDeLExo);
-div.appendChild(texte);
+    var div = document.getElementById("exo4");
+    var resultatDeLExo = "il y a " + count + " mots dans la phrase : " + message;
+    var texte = document.createTextNode(resultatDeLExo);
+    div.appendChild(texte);
 }

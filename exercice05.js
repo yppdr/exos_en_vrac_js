@@ -1,3 +1,5 @@
+//NE PLUS USE PLZ !
+
 function exercice05(){
 
 
@@ -20,7 +22,7 @@ function exercice05(){
        if (message[i] === " ") {
             count++;
            // incrémentation de la variable count car un espace = un mot.
-           
+
 
            // on affiche la position du mot ainsi que son nombre de caractère
            // long - 1 car sinon il compt aussi le nombre d'éspace.
@@ -64,7 +66,7 @@ var tru = length(message);
    console.log("il y a " + count + " mots dans la phrase : " + message);
    console.log(test);
    console.log(test2);
-   
+
     var div = document.getElementById("exo5");
     var resultatDeLExo = test3;
     var texte = document.createTextNode(resultatDeLExo);

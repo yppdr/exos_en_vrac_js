@@ -1,3 +1,5 @@
+//NE PLUS USE PLZ !
+
 function exercice05() {
 
 ////extraction des mots de la chaine, stockage dans un tableau de string
@@ -59,28 +61,28 @@ function exercice05() {
             messageDeRetour += listeDeMots[i] + " ";
         }
     }
-    
+
     // Part 4  affiche les e
     var isOk = false;
     for (var i = 0; i < length(listeDeMots); i++) {
          var mot = listeDeMots[i];
-         
+
             for (var j = 0; j <  length(mot); j++) {
                 if(mot[j] === "e"){
                     isOk = true;
                     break;
                 }
-                
+
             }
-            
+
             if (isOk) {
             messageDeRetour += mot + " ";
         }
     }
-    
-    
 
-// Partie 5 
+
+
+// Partie 5
 
 
 //    for (var i = 0; i < length(message); i++) {
