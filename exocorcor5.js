@@ -81,6 +81,11 @@ function exercice05(){
 	console.log("Chienne de base 2 : " + messageDeRetour);
 	
 	
+                var div = document.getElementById("exo5");
+    var resultatDeLExo = phrase + " === " + messageDeRetour ;
+    var texte = document.createTextNode(resultatDeLExo);
+    div.appendChild(texte);
+
 	
 	
 	
