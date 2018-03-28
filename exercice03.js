@@ -1,5 +1,4 @@
-function exercice03()
-{
+function exercice03(){
 
      // Declare mes var message + calcule ca taille
 
@@ -8,6 +7,8 @@ function exercice03()
      var ligne = "";
      var maj = "";
      var iMaj = 0;
+     
+     
  // - Remplacez tous les « e » par des « E »
      for (var i = 0; i < longueur; i++)
      {
@@ -27,5 +28,12 @@ function exercice03()
              ligne += message[i];
          }
      }
+
      console.log(ligne);
+     
+        var div = document.getElementById("exo3");
+    var resultatDeLExo = ligne;
+    var texte = document.createTextNode(resultatDeLExo);
+    div.appendChild(texte);
+
 }

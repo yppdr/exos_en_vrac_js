@@ -20,8 +20,14 @@ function exercice02(){
                 indexO += i + ".";
             }
         }
+        
+        var div = document.getElementById("exo2");
+var resultatDeLExo = indexO;
+var texte = document.createTextNode(resultatDeLExo);
+div.appendChild(texte);
 
             console.log("il y a : " + space + " espaces");
             console.log("il y a : " + o + " o");
             console.log(indexO);
 }
+
