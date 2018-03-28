@@ -1,22 +1,31 @@
-function exercice03(){
-var message = "bonjour à tous!";
-var longueur = length(message);
-var i = longueur;
-var espace = "";
-var o = "";
-var indexO = "";
-for (i = 0 ; i < longueur; i++){
-    if(message[i] ===  " "){
-        espace++;
-       
-    }
-    if(message[i] ===  "o"){
-        o++;
-        indexO += i + ".";
-    }
-}
+function exercice03()
+{
 
-    console.log("il  y a : " + espace + " espaces");
-    console.log("il y a : " + o + " o");
-    console.log(indexO);
+     // Declare mes var message + calcule ca taille
+
+     var message = "ceci est un texte assez long";
+     var longueur = length(message);
+     var ligne = "";
+     var maj = "";
+     var iMaj = 0;
+ // - Remplacez tous les « e » par des « E »
+     for (var i = 0; i < longueur; i++)
+     {
+         if (message[i] === 'e') {
+             ligne += 'E';
+         }
+ // - Remplacement de tous les espaces par des tirets
+         else if (message[i] === ' ') {
+             ligne += '-';
+             iMaj = i;
+         }
+ // - Changer la première lettre de chaque mot par une majuscule      
+         else if (i === parseInt(iMaj + 1) || i === 0) {
+             maj = toUpperCase(message[i]);
+             ligne += maj;
+         } else {
+             ligne += message[i];
+         }
+     }
+     console.log(ligne);
 }
