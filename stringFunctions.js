@@ -66,3 +66,15 @@ function length(chaine){
           }
       }
     }
+    
+function voyelleSuppr(char){
+    var voyelle = ["a", "A","e", "E","i", "I", "o", "O", "u", "U"];
+    var ahah = "bitch";
+    for(var i = 0 ; i < length(voyelle) ; i++){
+        if(char === voyelle[i]){
+            return ahah;
+        }
+    }
+    
+}
+    

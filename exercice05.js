@@ -5,9 +5,9 @@ function exercice05(){
     var message2 = "ceci est un texte assez long "; // variable qui stocke mon message (chaine de caractère)
     var count = 0;// variable count qui permet de compter le nombre de mots
     var long = 0;// variable long qui permet de compter le nombre de lettres par mots
-    var test = "";
-    var test2 = "";
-    var test3 = "";
+    var test = "";//Variable de test
+    var test2 = "";//Variable de test2
+    var test3 = "";//Variable de test3
     var nbl = 0;
 
    // debut de la boucle for (parcours du tableau de char)
